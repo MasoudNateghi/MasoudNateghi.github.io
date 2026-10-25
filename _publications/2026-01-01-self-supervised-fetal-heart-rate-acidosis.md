@@ -9,7 +9,7 @@ venue: Computing in Cardiology
 authors:
   - 'Johann Vargas-Calixto'
   - 'Masoud Nateghi'
-paperurl: https://cinc.org/prelim_program_2026/
+paperurl: https://cinc.org/2026/Program/accepted/19_Preprint.pdf
 citation: Johann Vargas-Calixto, **Masoud Nateghi**, et al. (2026). "Self-Supervised Representation Learning of Fetal Heart Rate Outperforms a Foundation Model in Identifying Fetal Acidosis." <i>Computing in Cardiology</i>.
 ---
 

@@ -24,6 +24,7 @@ The framework is inteded to extended by incorporating additional maternal physio
 
 - [Kalman Filter-Based Granger Causality — GitHub](https://github.com/alphanumericslab/kalman-granger-causality)<br>
 - [A Kalman Filter–Based Framework for Granger Causality Assessment: Application in Tracking Maternal–Fetal Heart Rate Coupling](https://doi.org/10.1109/TBME.2026.3710372), *IEEE TBME*, 2026
+- [Self-Supervised Representation Learning of Fetal Heart Rate Outperforms a Foundation Model in Identifying Fetal Acidosis](https://cinc.org/2026/Program/accepted/19_Preprint.pdf), *Computing in Cardiology (Cinc)*, 2026
 
 
 ## 2. Cardiovascular Biomarker Discovery in Chronic Kidney Disease
@@ -47,9 +48,27 @@ Our research focuses on extracting clinically meaningful biomarkers from cardiov
 
 - [Prescreening Depression Using Wearable Electrocardiogram and Photoplethysmogram Data from a Psycholinguistic Experiment](https://doi.org/10.1088/1361-6579/adf6fe), *Physiological Measurement*, 2025.
 - [Decoding Depression: Event Related Potential Dynamics and Predictive Neural Signatures of Depression Severity](https://doi.org/10.1016/j.jad.2025.119893), *Journal of Affective Disorders*, 2025.
+- [A Psycholinguistics Protocol with Simultaneous Multimodal Physiological Data Collection for Individualized Pre-Screening Depressive Disorders](https://doi.org/10.17504/protocols.io.dm6gpme3dgzp/v2), *protocols.io*, 2025.
+
 
 ## 4. Cuff-based Blood Pressure Systematic Bias Analysis and Correction
+Accurate blood pressure (BP) measurement is essential for cardiovascular disease diagnosis and management. Despite their widespread use, conventional cuff-based BP measurement methods, including auscultation and oscillometry, are subject to systematic errors that can affect clinical decision-making. Our research investigates two major sources of these errors: **the interaction between cuff and arterial pressure during measurement and respiration-induced BP variability**.
 
-## 5. Kalman Filtering and Dynamical Modeling of Physiological Systems
+We developed a mathematical framework to characterize and correct systematic biases in cuff-based BP measurements. Using continuous arterial BP recordings from the MIMIC database, we simulated the cuff-based measurement process and investigated the effects of cuff deflation rate and respiration on BP accuracy. We then developed **least squares (LS), maximum likelihood (ML), and Bayesian estimation methods** to improve BP estimates from single and repeated measurements. Our results demonstrated that incorporating statistical information about measurement errors can substantially improve BP estimation accuracy compared with conventional averaging. These methods have the potential to be integrated into existing BP monitoring devices through software updates, without requiring hardware modifications.
+
+![](/images/bp1.png)
+
+- [Estimation-Theoretic Bias Reduction for Oscillometric Blood Pressure Readings](https://arxiv.org/abs/2508.15687), AMIA Annual Symposium, 2026.
+
+## 5. Model-Based EEG Signal Processing for Automated Sleep Staging
+
+Electroencephalography (EEG) provides valuable information about brain activity and is widely used for monitoring sleep and diagnosing sleep disorders. Traditional sleep staging relies on manual inspection of EEG recordings by trained specialists, which is time-consuming and subject to inter-rater variability. Automated approaches can facilitate sleep analysis by extracting informative features from EEG recordings and identifying different sleep stages.
+
+We developed a **model-based signal processing framework** using Kalman filtering and time-varying autoregressive modeling to track the instantaneous frequency and power of EEG rhythms. Unlike conventional spectral analysis methods, our approach captures the dynamic characteristics of brain activity and provides interpretable features reflecting changes in EEG oscillations over time. We further integrated these features into machine learning models for automated sleep stage classification, demonstrating the potential of estimation-theoretic methods for analyzing nonstationary neural signals.
+
+![](/images/sleep.png)
+
+- [Model-Based Electroencephalogram Instantaneous Frequency Tracking: Application in Automated Sleep–Wake Stage Classification](https://doi.org/10.3390/s24247881), *Sensors*, 2024.
+
 
 
