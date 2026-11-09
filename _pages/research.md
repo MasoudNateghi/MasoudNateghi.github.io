@@ -58,6 +58,7 @@ We developed a mathematical framework to characterize and correct systematic bia
 
 ![](/images/bp1.png)
 
+- [Blood Pressure Calibration — GitHub](https://github.com/alphanumericslab/bp-calibration)
 - [An Estimation Framework for Cuff-based Blood Pressure Measurement: Analysis and Correction of Systematic Biases](https://doi.org/10.1088/1361-6579/aebde2), *Physiological Measurement*, 2026.
 - [Estimation-Theoretic Bias Reduction for Oscillometric Blood Pressure Readings](https://arxiv.org/abs/2508.15687), AMIA Annual Symposium, 2026.
 
